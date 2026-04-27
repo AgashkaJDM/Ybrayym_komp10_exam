@@ -10,7 +10,7 @@ class AuthorController extends Controller
     {
         // DataBase-den ahli awtorlar maglumatyny getiryar
         $awtorlar = \App\Models\Author::withCount('posts')->get();
-        // 4 commit
+        //
 
 
         // authors/index.blade.php ugradyar
